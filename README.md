@@ -35,7 +35,8 @@ J'aime transformer des idées pratiques en outils utilisables : une interface cl
 | --- | --- | --- |
 | [Miss-Noemie-Music-Bot](https://github.com/olivierpoirier/Miss-Noemie-Music-Bot) | TypeScript · Audio · Bot | Gestion de lecture musicale, file d'attente, contrôles de lecture et intégration web. |
 | [periodic-sound-player](https://github.com/olivierpoirier/periodic-sound-player) | Python · Audio · Desktop | Application configurable pour jouer des sons selon une logique personnalisée. |
-| [owl-soundboard](https://github.com/olivierpoirier/owl-soundboard-frontend) | JavaScript · Frontend · Backend | Soundboard de groupe avec interface web, backend dédié et gestion de sons partagés. |
+| [owl-soundboard-frontend](https://github.com/olivierpoirier/owl-soundboard-frontend) | JavaScript · Frontend · Web app | Interface web de soundboard de groupe pour organiser et déclencher des sons rapidement. |
+| [owl-soundboard-backend](https://github.com/olivierpoirier/owl-soundboard-backend) | HTML · Backend · Dropbox | Backend dédié pour gérer les sons, les réactions et les données partagées du soundboard. |
 
 Les dépôts épinglés plus bas donnent un aperçu rapide de ces projets, de leur stack et de mon activité GitHub.
 
@@ -46,10 +47,26 @@ I'm a software developer based in Quebec, Canada. I build practical web applicat
 
 I like turning real needs into usable tools: clear interfaces, reliable logic, and a user experience that feels simple and practical.
 
-**Main focus:** web apps, backend services, APIs, music bots, audio tooling, and Python automation.
+### What I focus on
 
-**Featured projects:** [Miss-Noemie-Music-Bot](https://github.com/olivierpoirier/Miss-Noemie-Music-Bot), [periodic-sound-player](https://github.com/olivierpoirier/periodic-sound-player), and the [owl-soundboard](https://github.com/olivierpoirier/owl-soundboard-frontend) frontend/backend project.
+| Area | What I build |
+| --- | --- |
+| **Web** | Simple interfaces, clear user flows, and practical tools |
+| **Backend and APIs** | Structured services, automation, and system integrations |
+| **Audio and bots** | Music playback, queues, real-time controls, and group experiences |
+| **Python** | Small practical apps that automate or simplify real workflows |
 
-**Links:** [Portfolio](https://www.syncos.ca/) · [LinkedIn](https://www.linkedin.com/in/olivier-poirier-66a3782bb) · [GitHub projects](https://github.com/olivierpoirier?tab=repositories)
+### Featured applications
+
+| Application | Stack | What it shows |
+| --- | --- | --- |
+| [Miss-Noemie-Music-Bot](https://github.com/olivierpoirier/Miss-Noemie-Music-Bot) | TypeScript · Audio · Bot | Music playback management, queues, playback controls, and web integration. |
+| [periodic-sound-player](https://github.com/olivierpoirier/periodic-sound-player) | Python · Audio · Desktop | Configurable app for playing sounds based on custom scheduling logic. |
+| [owl-soundboard-frontend](https://github.com/olivierpoirier/owl-soundboard-frontend) | JavaScript · Frontend · Web app | Web interface for organizing and triggering shared soundboard sounds quickly. |
+| [owl-soundboard-backend](https://github.com/olivierpoirier/owl-soundboard-backend) | HTML · Backend · Dropbox | Backend service for sounds, reactions, and shared soundboard data. |
+
+### Links
+
+[Portfolio](https://www.syncos.ca/) · [LinkedIn](https://www.linkedin.com/in/olivier-poirier-66a3782bb) · [GitHub projects](https://github.com/olivierpoirier?tab=repositories)
 
 </details>
