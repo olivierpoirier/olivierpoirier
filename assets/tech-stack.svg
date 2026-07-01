@@ -1,48 +1,134 @@
-<svg width="1200" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Stack principale</title>
   <desc id="desc">Python, TypeScript, JavaScript, Node.js, HTML/CSS, Git, APIs et audio tooling.</desc>
-  <rect width="1200" height="150" rx="24" fill="#0B1120"/>
-  <rect x="1" y="1" width="1198" height="148" rx="23" stroke="#334155" stroke-opacity="0.9"/>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1120"/>
+      <stop offset="0.55" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="line" x1="42" y1="78" x2="1138" y2="78" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E"/>
+      <stop offset="0.5" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="softShadow" x="-15%" y="-35%" width="130%" height="170%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#020617" flood-opacity="0.25"/>
+    </filter>
+    <style>
+      .card { opacity: 0; animation: cardIn 650ms ease-out forwards; }
+      .d1 { animation-delay: 80ms; }
+      .d2 { animation-delay: 160ms; }
+      .d3 { animation-delay: 240ms; }
+      .d4 { animation-delay: 320ms; }
+      .d5 { animation-delay: 400ms; }
+      .d6 { animation-delay: 480ms; }
+      .d7 { animation-delay: 560ms; }
+      .d8 { animation-delay: 640ms; }
+      .trace {
+        stroke-dasharray: 1100;
+        stroke-dashoffset: 1100;
+        animation: draw 1200ms ease-out 180ms forwards;
+      }
+      .wave { animation: wave 2.8s ease-in-out infinite; transform-origin: center; }
+      @keyframes cardIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      @keyframes draw {
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes wave {
+        0%, 100% { transform: scaleY(0.82); }
+        50% { transform: scaleY(1.18); }
+      }
+    </style>
+  </defs>
 
-  <text x="44" y="58" fill="#E2E8F0" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="26" font-weight="800">
+  <rect width="1200" height="260" rx="28" fill="url(#panel)"/>
+  <rect x="1" y="1" width="1198" height="258" rx="27" stroke="#334155" stroke-opacity="0.9"/>
+  <path class="trace" d="M42 82C214 50 353 105 515 76C686 46 802 45 945 79C1029 99 1087 97 1138 78" stroke="url(#line)" stroke-width="5" stroke-linecap="round" opacity="0.95"/>
+
+  <text x="42" y="54" fill="#E2E8F0" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="28" font-weight="800">
     Stack principale
   </text>
-  <text x="44" y="94" fill="#94A3B8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" font-weight="500">
+  <text x="42" y="106" fill="#94A3B8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="17" font-weight="500">
     Les outils que j'utilise le plus souvent pour construire mes projets.
   </text>
 
-  <g font-family="Segoe UI, Inter, Arial, sans-serif" font-size="17" font-weight="700">
-    <g transform="translate(470 34)">
-      <rect width="118" height="38" rx="19" fill="#3776AB"/>
-      <text x="59" y="25" fill="#FFFFFF" text-anchor="middle">Python</text>
+  <g font-family="Segoe UI, Inter, Arial, sans-serif" filter="url(#softShadow)">
+    <g class="card d1" transform="translate(42 126)">
+      <rect width="250" height="58" rx="16" fill="#111827" stroke="#1E3A8A"/>
+      <rect x="16" y="11" width="36" height="36" rx="10" fill="#3776AB"/>
+      <path d="M26 28C26 22 30 19 36 19H43V28H33C29 28 27 30 27 34V37H20V34C20 31 22 28 26 28Z" fill="#FFFFFF" opacity="0.9"/>
+      <path d="M42 30C42 36 38 39 32 39H25V30H35C39 30 41 28 41 24V21H48V24C48 27 46 30 42 30Z" fill="#FFD43B"/>
+      <circle cx="38" cy="23" r="1.6" fill="#FFD43B"/>
+      <circle cx="30" cy="35" r="1.6" fill="#FFFFFF"/>
+      <text x="68" y="27" fill="#E5E7EB" font-size="18" font-weight="800">Python</text>
+      <text x="68" y="45" fill="#94A3B8" font-size="13" font-weight="600">Apps, automation</text>
     </g>
-    <g transform="translate(604 34)">
-      <rect width="142" height="38" rx="19" fill="#3178C6"/>
-      <text x="71" y="25" fill="#FFFFFF" text-anchor="middle">TypeScript</text>
+
+    <g class="card d2" transform="translate(322 126)">
+      <rect width="250" height="58" rx="16" fill="#111827" stroke="#1D4ED8"/>
+      <rect x="16" y="11" width="36" height="36" rx="9" fill="#3178C6"/>
+      <text x="34" y="36" fill="#FFFFFF" font-size="18" font-weight="900" text-anchor="middle">TS</text>
+      <text x="68" y="27" fill="#E5E7EB" font-size="18" font-weight="800">TypeScript</text>
+      <text x="68" y="45" fill="#94A3B8" font-size="13" font-weight="600">Bots, frontend</text>
     </g>
-    <g transform="translate(762 34)">
-      <rect width="146" height="38" rx="19" fill="#F7DF1E"/>
-      <text x="73" y="25" fill="#111827" text-anchor="middle">JavaScript</text>
+
+    <g class="card d3" transform="translate(602 126)">
+      <rect width="250" height="58" rx="16" fill="#111827" stroke="#A16207"/>
+      <rect x="16" y="11" width="36" height="36" rx="9" fill="#F7DF1E"/>
+      <text x="35" y="37" fill="#111827" font-size="17" font-weight="900" text-anchor="middle">JS</text>
+      <text x="68" y="27" fill="#E5E7EB" font-size="18" font-weight="800">JavaScript</text>
+      <text x="68" y="45" fill="#94A3B8" font-size="13" font-weight="600">Web logic</text>
     </g>
-    <g transform="translate(924 34)">
-      <rect width="116" height="38" rx="19" fill="#339933"/>
-      <text x="58" y="25" fill="#FFFFFF" text-anchor="middle">Node.js</text>
+
+    <g class="card d4" transform="translate(882 126)">
+      <rect width="250" height="58" rx="16" fill="#111827" stroke="#166534"/>
+      <path d="M34 11L50 20V38L34 47L18 38V20L34 11Z" fill="#339933"/>
+      <text x="34" y="36" fill="#FFFFFF" font-size="18" font-weight="900" text-anchor="middle">N</text>
+      <text x="68" y="27" fill="#E5E7EB" font-size="18" font-weight="800">Node.js</text>
+      <text x="68" y="45" fill="#94A3B8" font-size="13" font-weight="600">Backend services</text>
     </g>
-    <g transform="translate(470 82)">
-      <rect width="124" height="38" rx="19" fill="#E34F26"/>
-      <text x="62" y="25" fill="#FFFFFF" text-anchor="middle">HTML/CSS</text>
+
+    <g class="card d5" transform="translate(42 194)">
+      <rect width="250" height="58" rx="16" fill="#111827" stroke="#BE123C"/>
+      <path d="M18 12H33L31 46L25 42L20 46L18 12Z" fill="#E34F26"/>
+      <path d="M35 12H50L48 46L42 42L37 46L35 12Z" fill="#1572B6"/>
+      <text x="25.5" y="35" fill="#FFFFFF" font-size="14" font-weight="900" text-anchor="middle">5</text>
+      <text x="42.5" y="35" fill="#FFFFFF" font-size="14" font-weight="900" text-anchor="middle">3</text>
+      <text x="68" y="27" fill="#E5E7EB" font-size="18" font-weight="800">HTML/CSS</text>
+      <text x="68" y="45" fill="#94A3B8" font-size="13" font-weight="600">Interfaces</text>
     </g>
-    <g transform="translate(610 82)">
-      <rect width="82" height="38" rx="19" fill="#F05032"/>
-      <text x="41" y="25" fill="#FFFFFF" text-anchor="middle">Git</text>
+
+    <g class="card d6" transform="translate(322 194)">
+      <rect width="250" height="58" rx="16" fill="#111827" stroke="#C2410C"/>
+      <rect x="16" y="11" width="36" height="36" rx="10" fill="#F05032"/>
+      <circle cx="27" cy="23" r="4" fill="#FFFFFF"/>
+      <circle cx="40" cy="36" r="4" fill="#FFFFFF"/>
+      <circle cx="27" cy="39" r="4" fill="#FFFFFF"/>
+      <path d="M27 23L40 36M27 23V39" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+      <text x="68" y="27" fill="#E5E7EB" font-size="18" font-weight="800">Git</text>
+      <text x="68" y="45" fill="#94A3B8" font-size="13" font-weight="600">Version control</text>
     </g>
-    <g transform="translate(708 82)">
-      <rect width="88" height="38" rx="19" fill="#0EA5E9"/>
-      <text x="44" y="25" fill="#FFFFFF" text-anchor="middle">APIs</text>
+
+    <g class="card d7" transform="translate(602 194)">
+      <rect width="250" height="58" rx="16" fill="#111827" stroke="#0369A1"/>
+      <rect x="16" y="11" width="36" height="36" rx="10" fill="#0EA5E9"/>
+      <text x="34" y="36" fill="#FFFFFF" font-size="20" font-weight="900" text-anchor="middle">{ }</text>
+      <text x="68" y="27" fill="#E5E7EB" font-size="18" font-weight="800">APIs</text>
+      <text x="68" y="45" fill="#94A3B8" font-size="13" font-weight="600">Integrations</text>
     </g>
-    <g transform="translate(812 82)">
-      <rect width="158" height="38" rx="19" fill="#14B8A6"/>
-      <text x="79" y="25" fill="#FFFFFF" text-anchor="middle">Audio tooling</text>
+
+    <g class="card d8" transform="translate(882 194)">
+      <rect width="250" height="58" rx="16" fill="#111827" stroke="#0F766E"/>
+      <rect x="16" y="11" width="36" height="36" rx="10" fill="#14B8A6"/>
+      <rect class="wave" x="24" y="28" width="4" height="12" rx="2" fill="#FFFFFF"/>
+      <rect class="wave" x="32" y="21" width="4" height="26" rx="2" fill="#FFFFFF" style="animation-delay:120ms"/>
+      <rect class="wave" x="40" y="26" width="4" height="16" rx="2" fill="#FFFFFF" style="animation-delay:240ms"/>
+      <text x="68" y="27" fill="#E5E7EB" font-size="18" font-weight="800">Audio tooling</text>
+      <text x="68" y="45" fill="#94A3B8" font-size="13" font-weight="600">Bots, playback</text>
     </g>
   </g>
 </svg>
