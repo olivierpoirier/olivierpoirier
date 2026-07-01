@@ -1,0 +1,48 @@
+<svg width="1200" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Stack principale</title>
+  <desc id="desc">Python, TypeScript, JavaScript, Node.js, HTML/CSS, Git, APIs et audio tooling.</desc>
+  <rect width="1200" height="150" rx="24" fill="#0B1120"/>
+  <rect x="1" y="1" width="1198" height="148" rx="23" stroke="#334155" stroke-opacity="0.9"/>
+
+  <text x="44" y="58" fill="#E2E8F0" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="26" font-weight="800">
+    Stack principale
+  </text>
+  <text x="44" y="94" fill="#94A3B8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" font-weight="500">
+    Les outils que j'utilise le plus souvent pour construire mes projets.
+  </text>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif" font-size="17" font-weight="700">
+    <g transform="translate(470 34)">
+      <rect width="118" height="38" rx="19" fill="#3776AB"/>
+      <text x="59" y="25" fill="#FFFFFF" text-anchor="middle">Python</text>
+    </g>
+    <g transform="translate(604 34)">
+      <rect width="142" height="38" rx="19" fill="#3178C6"/>
+      <text x="71" y="25" fill="#FFFFFF" text-anchor="middle">TypeScript</text>
+    </g>
+    <g transform="translate(762 34)">
+      <rect width="146" height="38" rx="19" fill="#F7DF1E"/>
+      <text x="73" y="25" fill="#111827" text-anchor="middle">JavaScript</text>
+    </g>
+    <g transform="translate(924 34)">
+      <rect width="116" height="38" rx="19" fill="#339933"/>
+      <text x="58" y="25" fill="#FFFFFF" text-anchor="middle">Node.js</text>
+    </g>
+    <g transform="translate(470 82)">
+      <rect width="124" height="38" rx="19" fill="#E34F26"/>
+      <text x="62" y="25" fill="#FFFFFF" text-anchor="middle">HTML/CSS</text>
+    </g>
+    <g transform="translate(610 82)">
+      <rect width="82" height="38" rx="19" fill="#F05032"/>
+      <text x="41" y="25" fill="#FFFFFF" text-anchor="middle">Git</text>
+    </g>
+    <g transform="translate(708 82)">
+      <rect width="88" height="38" rx="19" fill="#0EA5E9"/>
+      <text x="44" y="25" fill="#FFFFFF" text-anchor="middle">APIs</text>
+    </g>
+    <g transform="translate(812 82)">
+      <rect width="158" height="38" rx="19" fill="#14B8A6"/>
+      <text x="79" y="25" fill="#FFFFFF" text-anchor="middle">Audio tooling</text>
+    </g>
+  </g>
+</svg>
