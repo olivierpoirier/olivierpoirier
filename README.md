@@ -22,16 +22,20 @@ J'aime transformer des idées pratiques en outils utilisables : une interface cl
 
 ## Ce que je mets de l'avant
 
-- **Web** : interfaces simples, parcours clairs, outils faciles à utiliser.
-- **Backend et APIs** : services structurés, automatisation et intégrations.
-- **Audio et bots** : lecture musicale, files d'attente, contrôles temps réel et expériences de groupe.
-- **Python** : petites applications pratiques pour automatiser ou simplifier des tâches.
+| Axe | Ce que je construis |
+| --- | --- |
+| **Web** | Interfaces simples, parcours clairs, outils faciles à utiliser |
+| **Backend et APIs** | Services structurés, automatisation et intégrations entre systèmes |
+| **Audio et bots** | Lecture musicale, files d'attente, contrôles temps réel et expériences de groupe |
+| **Python** | Petites applications pratiques pour automatiser ou simplifier des tâches |
 
-## Projets à regarder en premier
+## Applications en vedette
 
-- [Miss-Noemie-Music-Bot](https://github.com/olivierpoirier/Miss-Noemie-Music-Bot) : bot musical en TypeScript avec lecture audio, file d'attente et contrôles de lecture.
-- [periodic-sound-player](https://github.com/olivierpoirier/periodic-sound-player) : application Python pour jouer des sons selon une logique personnalisée.
-- [owl-soundboard-frontend](https://github.com/olivierpoirier/owl-soundboard-frontend) / [backend](https://github.com/olivierpoirier/owl-soundboard-backend) : soundboard de groupe avec interface web et backend dédié.
+| Application | Stack | Ce que ça montre |
+| --- | --- | --- |
+| [Miss-Noemie-Music-Bot](https://github.com/olivierpoirier/Miss-Noemie-Music-Bot) | TypeScript · Audio · Bot | Gestion de lecture musicale, file d'attente, contrôles de lecture et intégration web. |
+| [periodic-sound-player](https://github.com/olivierpoirier/periodic-sound-player) | Python · Audio · Desktop | Application configurable pour jouer des sons selon une logique personnalisée. |
+| [owl-soundboard](https://github.com/olivierpoirier/owl-soundboard-frontend) | JavaScript · Frontend · Backend | Soundboard de groupe avec interface web, backend dédié et gestion de sons partagés. |
 
 Les dépôts épinglés plus bas donnent un aperçu rapide de ces projets, de leur stack et de mon activité GitHub.
 
